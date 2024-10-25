@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+ 
+.container{
+    height: 80vh;
+    margin-left: 5rem;
+    max-width: 30%;
+    background-color: rgb(154, 135, 189);
+}
+
+.btn-primary {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.2) translateY(-5px);
+    border-radius: 0.5rem;
+    border: none;
+    background-color: white ;
+    text-shadow: 0px 0px 5px rgb(216, 121, 224);
+}
+
+.btn-primary:hover {
+    border-radius: 6px;
+    border: none;
+    box-shadow: 3px 3px 8px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: white;
+    color: rgb(216, 121, 224);
+}

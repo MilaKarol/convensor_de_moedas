@@ -7,6 +7,7 @@
 <br>
  
 
+
 <p align="center">
 <a href="#descricao">Sobre</a> &#xa0; | &#xa0; 
 <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
@@ -22,6 +23,7 @@
 Este projeto é uma ferramenta prática para realizar conversões rápidas e precisas entre as moedas Dólar (USD), Euro (EUR) e Real (BRL). Com uma interface intuitiva, é ideal para quem precisa verificar valores em diferentes moedas de forma ágil.
 </p>
  
+
 <h2 id="tecnologias">Tecnologias</h2>
 <p>Tecnologias utilizadas para a criação do projeto:</p>
 <ul>

@@ -32,6 +32,8 @@ Este projeto é uma ferramenta prática para realizar conversões rápidas e pre
 <li><img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript"></li>
 <li><img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5"></li>
 </ul>
+
+
  
 <h2 id="explicacao">Explicação</h2>
  
@@ -51,9 +53,11 @@ document.getElementById("form").addEventListener("submit", function (event) {
 
   const paraMoeda = document.getElementById("paraMoeda").value;
 
+
 ~~~
 
 O código impede o recarregamento da página quando o formulário é enviado; além disso, captura os valores inseridos pelo usuário.
+
  
 ~~~ JavaScript
 
@@ -69,11 +73,13 @@ O código impede o recarregamento da página quando o formulário é enviado; al
 
   };
 
+
 ~~~
 
 O código organiza as taxas de câmbio em valores fixos, ao informar uma moeda de origem e a moeda para a qual deseja trocar.
  
 ~~~ JavaScript
+
 
 // Conversão simples de moedas
 
@@ -89,10 +95,13 @@ O código organiza as taxas de câmbio em valores fixos, ao informar uma moeda d
 
   }
 
+
 ~~~
 
 Caso seja feita uma conversão entre moedas do mesmo tipo, o valor permanece inalterado; se forem diferentes, a taxa é aplicada.
  
+
+
 ~~~ JavaScript
 
   const Conversão = document.getElementById("conversão");
@@ -100,6 +109,7 @@ Caso seja feita uma conversão entre moedas do mesmo tipo, o valor permanece ina
   Conversão.textContent = `Resultado: ${valorConvertido.toFixed(2)} ${paraMoeda} `;
 
 });
+
 
 ~~~
 

@@ -6,7 +6,7 @@
  
 <br>
  
- 
+
 <p align="center">
 <a href="#descricao">Sobre</a> &#xa0; | &#xa0; 
 <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
